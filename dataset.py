@@ -63,7 +63,7 @@ def get_dataloaders(data_dir, csv_path, batch_size=8, val_size=0.2):
     train_dataset = CloudDataset(data_dir, train_ids, is_train=True)
     val_dataset = CloudDataset(data_dir, val_ids, is_train=True)
 
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=2)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=2)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True, persistent_workers=True, prefetch_factor=2)
+    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True, persistent_workers=True, prefetch_factor=2)
 
     return train_loader, val_loader
