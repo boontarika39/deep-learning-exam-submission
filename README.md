@@ -1,3 +1,13 @@
+# Getting started - Satellite Cloud Cover Classification
+
+```bash
+git clone https://github.com/boontarika39/deep-learning-exam-submission.git
+cd deep-learning-exam-submission
+```
+or [click to open in Colab](https://colab.research.google.com/github/boontarika39/deep-learning-exam-submission/blob/main/notebooks/analysis.ipynb)
+
+---
+
 # 🛰️ Deep Learning Exam: Satellite Cloud Cover Classification
 
 > **Intermediate–Advanced Level** | Python · PyTorch · Remote Sensing
