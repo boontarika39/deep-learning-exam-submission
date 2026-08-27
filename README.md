@@ -1,6 +1,7 @@
 # 🔆 Getting started 
+> การนำ source code ไปใช้งาน
 
-## 📒 Open in Google Colab (Recommended)
+## เปิดใน Google Colab (แนะนำ)
 - [Open in Colab](https://colab.research.google.com/github/boontarika39/deep-learning-exam-submission/blob/main/notebooks/analysis.ipynb)
 
 หรือ clone repository
@@ -9,7 +10,7 @@ git clone https://github.com/boontarika39/deep-learning-exam-submission.git
 cd deep-learning-exam-submission
 ```
 
-## 📒 การตั้งค่า env หรือ secret
+## การตั้งค่า env หรือ secret
 
 การวิเคราะห์ครั้งนี้ใช้ชุดข้อมูล **38-Cloud** จาก Kaggle ในการรันบน Google Colab หรือ Local Environment จึงต้องตั้งค่า Kaggle API Credentials ก่อนดาวน์โหลด Dataset
 
