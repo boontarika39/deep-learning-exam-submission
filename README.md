@@ -28,7 +28,7 @@ from google.colab import userdata
 os.environ['KAGGLE_USERNAME'] = userdata.get('KAGGLE_USERNAME')
 os.environ['KAGGLE_KEY'] = userdata.get('KAGGLE_KEY')
 ```
-> [!TIP]
+> [!NOTE]
 > สำหรับขั้นตอนการเตรียมข้อมูลและการทดสอบ สามารถดูรายละเอียดได้ในเนื้อหาส่วนถัดไป
 
 ---
