@@ -1,12 +1,7 @@
 # Getting started 
 
-```bash
-git clone https://github.com/boontarika39/deep-learning-exam-submission.git
-cd deep-learning-exam-submission
-```
-or [click to open in Colab]
-## 1. Open in Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/boontarika39/deep-learning-exam-submission/blob/main/notebooks/analysis.ipynb)
+## Open in Google Colab (Recommended)
+[Open in Colab](https://colab.research.google.com/github/boontarika39/deep-learning-exam-submission/blob/main/notebooks/analysis.ipynb)
 
 Or clone repository
 ```bash
@@ -14,13 +9,13 @@ git clone https://github.com/boontarika39/deep-learning-exam-submission.git
 cd deep-learning-exam-submission
 ```
 
-## 2. Environment & Dataset Setup
+## Environment & Dataset Setup
 
-โครงการนี้ใช้ชุดข้อมูล **38-Cloud** จาก Kaggle ในการรันบน Google Colab หรือ Local Environment จำเป็นต้องตั้งค่า Kaggle API Credentials ก่อนดาวน์โหลด Dataset
+การวิเคราะห์ครั้งนี้ใช้ชุดข้อมูล **38-Cloud** จาก Kaggle ในการรันบน Google Colab หรือ Local Environment จึงต้องตั้งค่า Kaggle API Credentials ก่อนดาวน์โหลด Dataset
 
 #### **Setting up Kaggle API Keys (Google Colab Secrets)**
-1. ไปที่บัญชี Kaggle -> **Account** -> **Create New API Token** เพื่อดาวน์โหลดไฟล์ `kaggle.json`
-2. บน Google Colab ให้เปิดแถบ **Secrets (รูปแม่กุญแจ 🗝️)** ด้านซ้ายมือ แล้วเพิ่ม Keys ดังนี้:
+1. ไปที่บัญชี Kaggle -> **Account** -> **Create New API Token** เพื่อดาวน์โหลดไฟล์ `kaggle.json` หรือ copy `API Token`
+2. บน Google Colab ให้เปิดแถบ **Secrets** ด้านซ้ายมือ แล้วเพิ่ม Keys ดังนี้:
    - `KAGGLE_USERNAME`: ชื่อผู้ใช้ Kaggle ของคุณ
    - `KAGGLE_KEY`: รหัส API Key ของคุณ
 
