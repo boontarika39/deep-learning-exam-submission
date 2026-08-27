@@ -1,6 +1,6 @@
 # Getting started 
 
-## Open in Google Colab (Recommended)
+## 📒 Open in Google Colab (Recommended)
 [Open in Colab](https://colab.research.google.com/github/boontarika39/deep-learning-exam-submission/blob/main/notebooks/analysis.ipynb)
 
 Or clone repository
@@ -9,7 +9,7 @@ git clone https://github.com/boontarika39/deep-learning-exam-submission.git
 cd deep-learning-exam-submission
 ```
 
-## Environment & Dataset Setup
+## 📒 Environment & Dataset Setup
 
 การวิเคราะห์ครั้งนี้ใช้ชุดข้อมูล **38-Cloud** จาก Kaggle ในการรันบน Google Colab หรือ Local Environment จึงต้องตั้งค่า Kaggle API Credentials ก่อนดาวน์โหลด Dataset
 
