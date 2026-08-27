@@ -1,4 +1,4 @@
-# Getting started 
+# 🔆 Getting started 
 
 ## 📒 Open in Google Colab (Recommended)
 - [Open in Colab](https://colab.research.google.com/github/boontarika39/deep-learning-exam-submission/blob/main/notebooks/analysis.ipynb)
